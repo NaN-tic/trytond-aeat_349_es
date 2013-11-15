@@ -7,7 +7,7 @@ import os
 import ConfigParser
 
 MODULE = 'aeat_349_es'
-PREFIX = 'nantic'
+PREFIX = 'trytonspain'
 MODULE2PREFIX = {}
 
 
