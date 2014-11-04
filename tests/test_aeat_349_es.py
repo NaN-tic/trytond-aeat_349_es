@@ -7,17 +7,13 @@ from trytond.tests.test_tryton import test_depends
 
 
 class Aeat349EsTestCase(unittest.TestCase):
-    '''
-    Test AEAT 349 ES module.
-    '''
+    'Test AEAT 349 ES module'
 
     def setUp(self):
         trytond.tests.test_tryton.install_module('aeat_349_es')
 
     def test0006depends(self):
-        '''
-        Test depends.
-        '''
+        'Test depends'
         test_depends()
 
 
